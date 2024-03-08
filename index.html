@@ -4,12 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" rel="styles.css">
+    <link rel="stylesheet" href="Stylesheets/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-    <h1>Hello, world!</h1>
-    <p>This is a basic static web app.</p>
+    
+    <div id="top-container">
+     
+        <div id="title-container">
+            <h1 class="title">WE ARE INVENIUM</h1>
+            <div id="videos">
+                <video controls width="20%">
+                    <source src="Assets/Videos/Token_Lounge_1.mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+        </div>
 
-<script src="script.js"></script>   
+        <div id="about-container">
+            <div id="header-container">
+                <h1>About The Band</h1>
+            </div>
+            <div id="about-main-container">
+                <div id="container-one" class="column">
+                    <h3>Vocals</h3>
+                    <p>Alexis</p>
+                    <p>This about this artist</p>
+                </div>
+                <div id="container-two" class="column">
+                    <h3>Lead Guitar</h3>
+                    <p>Matt</p>
+                    <p>This about this artist</p>
+                </div>
+                <div id="container-three" class="column">
+                    <h3>Bass</h3>
+                    <p>Colin</p>
+                    <p>This about this artist</p>
+                </div>
+                <div id="container-four" class="column">
+                    <h3>Drums</h3>
+                    <p>Aidan</p>
+                    <p>This about this artist</p>
+                </div>
+            
+            </div>
+
+        </div>
+
+        <div id="media-container">
+
+        </div>
+
+
+
+        <div id="footer-container">
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/@INVENIUM" target="_blank">Watch Us Here!</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/invenium.the.band/" target="_blank"><img [src]="logoURL" alt="instagram" width="20px"></a>
+                </li>
+                <li>
+                    <a [href]="mailtoLink" target="_blank">Book An Event With Us</a>
+                </li>
+                <li>Created By Kyle McIntosh</li>
+            </ul>
+    </div>
+    </div>
+
+<script src="Scripts/script.js"></script>   
 </body>
 </html>

@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#top-container {
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #FFD700, #A52A2A, #006400, #4682B4, #8B4513);
+}
+
+#videos, h1 {
+    display: flex;
+    justify-content: center;
+}
+
+  /* Style for the title */
+.title {
+    font-size: 4rem; /* Large font size */
+    font-weight: bold; /* Bold font weight */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Text shadow */
+    padding: 20px; /* Padding around the title */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+#about-container {
+    margin: 2%;
+}
+
+#header-container {
+    width: 98%;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+#about-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.column {
+    width: 22%;
+    padding: 0.5%;
+    border-radius: 20px;
+/* Initially transparent border */
+    /* border: 2px solid transparent; */
+/* Initially not transparent border */
+    /* border: 2px solid ;  */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.column:hover {
+    transform: scale(1.05); /* Increase the size on hover */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+    border-color: #007bff; /* Change border color on hover */
+}
+
+#footer-container {
+    width: 98vw;
+    position: fixed;
+    bottom: 0;
+    padding-top: 0.75%;
+    height: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0.5%; /* Add padding for content */
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+}
