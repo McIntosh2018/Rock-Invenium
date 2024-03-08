@@ -4,7 +4,7 @@ body {
 }
 
 #top-container {
-    height: 100vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #FFD700, #A52A2A, #006400, #4682B4, #8B4513);
@@ -58,6 +58,27 @@ body {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
     border-color: #007bff; /* Change border color on hover */
 }
+
+.image {
+    /* max-width: 20%; */
+    max-height: 10%;
+    padding: 1%;
+    border-radius: 15%;
+}
+
+.image:hover {
+    transform: scale(1.5); /* Increase the size on hover */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+    border-color: #007bff; /* Change border color on hover */
+    margin-left: 7.5%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 #footer-container {
     width: 98vw;
