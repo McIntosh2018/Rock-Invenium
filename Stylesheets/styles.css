@@ -28,7 +28,7 @@ body {
     margin: 2%;
 }
 
-#header-container {
+#about-header-container {
     width: 98%;
     display: flex;
     justify-self: center;
@@ -59,6 +59,11 @@ body {
     border-color: #007bff; /* Change border color on hover */
 }
 
+#image-conatiner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .image {
     /* max-width: 20%; */
     max-height: 10%;
@@ -78,8 +83,6 @@ h2 {
     justify-content: center;
 }
 
-
-
 #footer-container {
     width: 98vw;
     position: fixed;
@@ -90,11 +93,11 @@ h2 {
     padding: 0.5%; /* Add padding for content */
 }
 
-ul {
+#foot-container {
     display: flex;
     justify-content: space-evenly;
 }
 
-li {
+.footer-list, li {
     list-style: none;
 }

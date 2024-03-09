@@ -23,7 +23,7 @@
         </div>
  
         <div id="about-container">
-            <div id="header-container">
+            <div id="about-header-container">
                 <h1>About The Band</h1>
             </div>
             <div id="about-main-container">
@@ -54,25 +54,25 @@
 
         <div id="media-container"> 
             <h1>Dynamic Image List</h1>
-            <ul id="imageList"></ul>
+            <div id="image-container">
+                <ul id="imageList"></ul>
+            </div>
         </div>
 
-
-
         <div id="footer-container">
-            <ul>
-                <li>
+            <ul id="foot-container">
+                <li class="footer-list">
                     <a href="https://www.youtube.com/@INVENIUM" target="_blank">Watch Us Here!</a>
                 </li>
-                <li>
+                <liclass="footer-list">
                     <a href="https://www.instagram.com/invenium.the.band/" target="_blank"><img [src]="logoURL" alt="instagram" width="20px"></a>
                 </li>
-                <li>
+                <liclass="footer-list">
                     <a [href]="mailtoLink" target="_blank">Book An Event With Us</a>
                 </li>
-                <li>Created By Kyle McIntosh</li>
+                <liclass="footer-list">Created By Kyle McIntosh</li>
             </ul>
-    </div>
+        </div>
     </div>
 
 <script src="Scripts/script.js"></script>   
